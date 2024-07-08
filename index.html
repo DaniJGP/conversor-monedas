@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <title>Conversor de monedas</title>
+</head>
+<body>
+  <h1>Conversor de monedas nacional</h1>
+  <form action="#" id="conversor">
+    <label for="inputCLP">Pesos chilenos</label>
+    <input type="number" name="clp" id="inputCLP" placeholder="Ingrese el monto en CLP">
+    <label for="moneda">Moneda a convertir:</label>
+    <select name="moneda" id="selectMoneda"></select>
+    <button class="btn">Buscar</button>
+    <div id="resultado"></div>
+    <div id="error"></div>
+  </form>
+
+  <div id="grafico">
+    <canvas id="myChart"></canvas>
+  </div>
+  
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.3/dist/chart.umd.min.js"></script>
+  <script src="assets/js/main.js"></script>
+</body>
+</html>

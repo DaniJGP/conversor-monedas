@@ -1,0 +1,77 @@
+/* Theme */
+
+:root {
+  --barn-red: #780000ff;
+  --fire-brick: #c1121fff;
+  --papaya-whip: #fdf0d5ff;
+  --prussian-blue: #003049ff;
+  --air-superiority-blue: #023e8aff;
+}
+
+/* Reset */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+button {
+  border: none;
+  font: inherit;
+  color: inherit;
+  background-color: transparent;
+}
+
+/* Styles */
+
+body {
+  background-color: var(--prussian-blue);
+  color: white;
+  text-align: center;
+}
+
+#conversor {
+  width: 375px;
+  margin: 1.5rem auto;
+  background-color: var(--barn-red);
+  padding: 1rem 1.5rem;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  font-size: 1.125rem;
+  font-weight: bold;
+}
+
+#grafico {
+  position: relative;
+  min-width: 400px;
+  width: 50vw;
+  margin: auto;
+}
+
+#error {
+  font-size: 1rem;
+}
+
+input, select {
+  padding: 5px;
+}
+
+h1 {
+  background-color: var(--air-superiority-blue);
+  padding: 1.5rem;
+}
+
+.btn {
+  background-color: var(--fire-brick);
+  border-radius: 4px;
+  padding: 6px;
+  font-size: 1rem;
+}
